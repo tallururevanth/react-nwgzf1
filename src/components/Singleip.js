@@ -5,7 +5,7 @@ class Singleip extends React.Component {
     super();
     this.state = {
       name: ['Revanth', 'Kamal', 'Subbu'],
-      friends: ['Uday', 'Eswar'],
+      friends: ['Uday', 'Eswar', 'karthik'],
     };
   }
   render() {
