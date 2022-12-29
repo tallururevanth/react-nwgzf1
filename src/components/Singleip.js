@@ -4,7 +4,7 @@ class Singleip extends React.Component {
   constructor() {
     super();
     this.state = {
-      name: ['Revanth', 'Kamal', 'Subbu', 'sai'],
+      name: ['Revanth', 'Subbu', 'sai'],
       friends: ['Uday', 'Eswar', 'karthik'],
     };
   }
@@ -20,7 +20,7 @@ class Singleip extends React.Component {
         >
           display
         </button>
-        <table border='1px'>
+        <table border="1px">
           <tr>
             {this.state.friends.map(function (fr, i) {
               return <td>{fr}</td>;
